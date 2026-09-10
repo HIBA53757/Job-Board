@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,196 +8,202 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="header">
-    <div class="container navbar">
-        <div class="logo-brand">
-            <span class="logo-icon">M</span>
-            <span class="logo-text">MERN<span>Jobs</span></span>
-        </div>
-        <nav class="nav-links">
-            <a href="/index.html" class="active">Offres disponibles</a>
-            <a href="/suivies.html">Offres suivies</a>
-            <a href="/deposer.html">Administration</a>
-        </nav>
-        <div class="nav-actions">
-            <a href="#" class="btn-link">Connexion</a>
-            <a href="#" class="btn-primary">Publier une offre</a>
-        </div>
-    </div>
-</header>
-
-<main class="container">
-    <h1>Trouvez votre <span>Stage</span> ou<br><span>Alternance MERN</span></h1>
-
-    <div class="search-card">
-        <div class="inputs-row">
-            <input type="text" class="input-group" placeholder="🔍 Poste, mot-clé (ex: React, Node, Fullstack)...">
-            <select class="input-group">
-                <option>Tous types de contrats</option>
-            </select>
-            <select class="input-group">
-                <option>Toutes les localisations</option>
-            </select>
-            <button class="icon-btn">↻</button>
-        </div>
-        <div class="tags-row">
-            <span>STACK MERN & TOOLS:</span>
-            <a href="#" class="tag active">Tous</a>
-            <a href="#" class="tag">React</a>
-            <a href="#" class="tag">Node.js</a>
-            <a href="#" class="tag">MongoDB</a>
-            <a href="#" class="tag">Express</a>
-            <a href="#" class="tag">TypeScript</a>
-            <a href="#" class="tag">Tailwind</a>
-            <a href="#" class="tag">Next.js</a>
-            <a href="#" class="tag">GraphQL</a>
-        </div>
-    </div>
-
-    <div class="section-header">
-        <h2>Offres vérifiées</h2>
-        <span class="badge-count">24 opportunités disponibles</span>
-    </div>
-
-    <div class="grid">
-        <div class="card">
-            <div>
-                <div class="card-header">
-                    <div class="company-info">
-                        <div class="logo">DP</div>
-                        <div>
-                            <div class="company-name">DataPulse Tech</div>
-                            <div class="location">📍 Paris, 9e • Hybride</div>
-                        </div>
-                    </div>
-                    <span class="bookmark">🔖</span>
-                </div>
-                <div class="badges">
-                    <span class="badge-type">Stage 6 mois</span>
-                    <span class="badge-gray">1 350 € / mois</span>
-                    <span class="badge-gray">🕒 Publié il y a 2j</span>
-                </div>
-                <h3 class="job-title">Développeur Full Stack MERN</h3>
-                <p class="job-desc">Conception d'une plateforme d'analytics temps réel. Intégration de dashboards interactifs avec...</p>
-                <div class="tech-stack">
-                    <span class="tech">React</span>
-                    <span class="tech">Node.js</span>
-                    <span class="tech">MongoDB</span>
-                    <span class="tech">TypeScript</span>
-                </div>
-            </div>
-            <div class="card-footer">
-                <span class="perk">• Tutorat Senior garanti</span>
-                <button class="btn-details">Détails →</button>
-            </div>
-        </div>
-
-        <div class="card">
-            <div>
-                <div class="card-header">
-                    <div class="company-info">
-                        <div class="logo">IW</div>
-                        <div>
-                            <div class="company-name">InnoWave Labs</div>
-                            <div class="location">📍 Lyon, Part-Dieu • Sur site</div>
-                        </div>
-                    </div>
-                    <span class="bookmark">🔖</span>
-                </div>
-                <div class="badges">
-                    <span class="badge-type orange">Alternance 12 mois</span>
-                    <span class="badge-gray">Rythme 3 sem / 1 sem</span>
-                    <span class="badge-gray">🕒 Publié il y a 3j</span>
-                </div>
-                <h3 class="job-title">Développeur React / Node.js</h3>
-                <p class="job-desc">Modernisation du portail B2B SaaS. Refactorisation de classes React vers des hooks personnalisés,...</p>
-                <div class="tech-stack">
-                    <span class="tech">React</span>
-                    <span class="tech">Node.js</span>
-                    <span class="tech">Express</span>
-                    <span class="tech">Tailwind</span>
-                </div>
-            </div>
-            <div class="card-footer">
-                <span class="perk orange">• Convention prête</span>
-                <button class="btn-details">Détails →</button>
-            </div>
-        </div>
-
-        <div class="card">
-            <div>
-                <div class="card-header">
-                    <div class="company-info">
-                        <div class="logo">GF</div>
-                        <div>
-                            <div class="company-name">GreenFlow ESG</div>
-                            <div class="location">🏠 100% Télétravail • France</div>
-                        </div>
-                    </div>
-                    <span class="bookmark">🔖</span>
-                </div>
-                <div class="badges">
-                    <span class="badge-type">Stage Fin d'Études</span>
-                    <span class="badge-gray">1 200 € + Primes</span>
-                    <span class="badge-gray">🕒 Publié hier</span>
-                </div>
-                <h3 class="job-title">Ingénieur Logiciel Frontend React</h3>
-                <p class="job-desc">Création d'interfaces haute performance meaurant l'empreinte carbone des datacenters. Focus sur le...</p>
-                <div class="tech-stack">
-                    <span class="tech">React</span>
-                    <span class="tech">Next.js</span>
-                    <span class="tech">TypeScript</span>
-                    <span class="tech">Tailwind</span>
-                </div>
-            </div>
-            <div class="card-footer">
-                <span class="perk">• Possibilité d'embauche CDI</span>
-                <button class="btn-details">Détails →</button>
-            </div>
-        </div>
-    </div>
-</main>
-
-<footer class="footer">
-    <div class="container footer-content">
-        <div class="footer-col">
+    <header class="header">
+        <div class="container navbar">
             <div class="logo-brand">
                 <span class="logo-icon">M</span>
                 <span class="logo-text">MERN<span>Jobs</span></span>
             </div>
-            <p class="footer-desc">La plateforme dédiée aux opportunités de stages et alternances pour les développeurs de l'écosystème MERN.</p>
+            <nav class="nav-links">
+                <a href="/index.html" class="active">Offres disponibles</a>
+                <a href="/suivies.html">Offres suivies</a>
+                <a href="/deposer.html">Administration</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="btn-link">Connexion</a>
+                <a href="#" class="btn-primary">Publier une offre</a>
+            </div>
         </div>
-        <div class="footer-col">
-            <h4>Candidats</h4>
-            <ul>
-                <li><a href="#">Toutes les offres</a></li>
-                <li><a href="#">Stages MERN</a></li>
-                <li><a href="#">Alternances MERN</a></li>
-            </ul>
+    </header>
+
+    <main class="container">
+        <h1>Trouvez votre <span>Stage</span> ou<br><span>Alternance MERN</span></h1>
+
+        <div class="search-card">
+            <div class="inputs-row">
+                <input type="text" class="input-group" placeholder="🔍 Poste, mot-clé (ex: React, Node, Fullstack)...">
+                <select class="input-group">
+                    <option>Tous types de contrats</option>
+                </select>
+                <select class="input-group">
+                    <option>Toutes les localisations</option>
+                </select>
+                <button class="icon-btn">↻</button>
+            </div>
+            <div class="tags-row">
+                <span>STACK MERN & TOOLS:</span>
+                <a href="#" class="tag active">Tous</a>
+                <a href="#" class="tag">React</a>
+                <a href="#" class="tag">Node.js</a>
+                <a href="#" class="tag">MongoDB</a>
+                <a href="#" class="tag">Express</a>
+                <a href="#" class="tag">TypeScript</a>
+                <a href="#" class="tag">Tailwind</a>
+                <a href="#" class="tag">Next.js</a>
+                <a href="#" class="tag">GraphQL</a>
+            </div>
         </div>
-        <div class="footer-col">
-            <h4>Recruteurs</h4>
-            <ul>
-                <li><a href="#">Publier une offre</a></li>
-                <li><a href="#">Tarifs</a></li>
-                <li><a href="#">Espace Entreprise</a></li>
-            </ul>
+
+        <div class="section-header">
+            <h2>Offres vérifiées</h2>
+            <span class="badge-count">24 opportunités disponibles</span>
         </div>
-        <div class="footer-col">
-            <h4>Informations</h4>
-            <ul>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Mentions légales</a></li>
-            </ul>
+
+        <div class="grid">
+            <div class="card">
+                <div>
+                    <div class="card-header">
+                        <div class="company-info">
+                            <div class="logo">DP</div>
+                            <div>
+                                <div class="company-name">DataPulse Tech</div>
+                                <div class="location">📍 Paris, 9e • Hybride</div>
+                            </div>
+                        </div>
+                        <span class="bookmark">🔖</span>
+                    </div>
+                    <div class="badges">
+                        <span class="badge-type">Stage 6 mois</span>
+                        <span class="badge-gray">1 350 € / mois</span>
+                        <span class="badge-gray">🕒 Publié il y a 2j</span>
+                    </div>
+                    <h3 class="job-title">Développeur Full Stack MERN</h3>
+                    <p class="job-desc">Conception d'une plateforme d'analytics temps réel. Intégration de dashboards
+                        interactifs avec...</p>
+                    <div class="tech-stack">
+                        <span class="tech">React</span>
+                        <span class="tech">Node.js</span>
+                        <span class="tech">MongoDB</span>
+                        <span class="tech">TypeScript</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="perk">• Tutorat Senior garanti</span>
+                    <button class="btn-details">Détails →</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="card-header">
+                        <div class="company-info">
+                            <div class="logo">IW</div>
+                            <div>
+                                <div class="company-name">InnoWave Labs</div>
+                                <div class="location">📍 Lyon, Part-Dieu • Sur site</div>
+                            </div>
+                        </div>
+                        <span class="bookmark">🔖</span>
+                    </div>
+                    <div class="badges">
+                        <span class="badge-type orange">Alternance 12 mois</span>
+                        <span class="badge-gray">Rythme 3 sem / 1 sem</span>
+                        <span class="badge-gray">🕒 Publié il y a 3j</span>
+                    </div>
+                    <h3 class="job-title">Développeur React / Node.js</h3>
+                    <p class="job-desc">Modernisation du portail B2B SaaS. Refactorisation de classes React vers des
+                        hooks personnalisés,...</p>
+                    <div class="tech-stack">
+                        <span class="tech">React</span>
+                        <span class="tech">Node.js</span>
+                        <span class="tech">Express</span>
+                        <span class="tech">Tailwind</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="perk orange">• Convention prête</span>
+                    <button class="btn-details">Détails →</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="card-header">
+                        <div class="company-info">
+                            <div class="logo">GF</div>
+                            <div>
+                                <div class="company-name">GreenFlow ESG</div>
+                                <div class="location">🏠 100% Télétravail • France</div>
+                            </div>
+                        </div>
+                        <span class="bookmark">🔖</span>
+                    </div>
+                    <div class="badges">
+                        <span class="badge-type">Stage Fin d'Études</span>
+                        <span class="badge-gray">1 200 € + Primes</span>
+                        <span class="badge-gray">🕒 Publié hier</span>
+                    </div>
+                    <h3 class="job-title">Ingénieur Logiciel Frontend React</h3>
+                    <p class="job-desc">Création d'interfaces haute performance meaurant l'empreinte carbone des
+                        datacenters. Focus sur le...</p>
+                    <div class="tech-stack">
+                        <span class="tech">React</span>
+                        <span class="tech">Next.js</span>
+                        <span class="tech">TypeScript</span>
+                        <span class="tech">Tailwind</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="perk">• Possibilité d'embauche CDI</span>
+                    <button class="btn-details">Détails →</button>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <p>© 2026 MERNJobs. Tous droits réservés.</p>
-    </div>
-</footer>
-<script src="script.js"></script>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <div class="logo-brand">
+                    <span class="logo-icon">M</span>
+                    <span class="logo-text">MERN<span>Jobs</span></span>
+                </div>
+                <p class="footer-desc">La plateforme dédiée aux opportunités de stages et alternances pour les
+                    développeurs de l'écosystème MERN.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Candidats</h4>
+                <ul>
+                    <li><a href="#">Toutes les offres</a></li>
+                    <li><a href="#">Stages MERN</a></li>
+                    <li><a href="#">Alternances MERN</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Recruteurs</h4>
+                <ul>
+                    <li><a href="#">Publier une offre</a></li>
+                    <li><a href="#">Tarifs</a></li>
+                    <li><a href="#">Espace Entreprise</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 MERNJobs. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>

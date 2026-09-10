@@ -17,7 +17,6 @@ body {
     padding: 0 20px;
 }
 
-/* Navigation Header */
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #cbd5e1;
@@ -481,4 +480,108 @@ h1 span {
     text-align: center;
     font-size: 13px;
     color: #94a3b8;
+}
+/* page  suivies */
+.page-badge {
+    color: #047857;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 15px;
+    margin-top: -18px;
+    margin-bottom: 30px;
+}
+
+.saved-jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.saved-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px 24px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.25s ease;
+}
+
+.saved-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    border-color: #cbd5e1;
+}
+
+.saved-card-left {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.saved-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.job-title-list {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.meta-row {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.meta-row strong {
+    color: #1e293b;
+}
+
+.saved-card-content .tech-stack {
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.saved-card-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-action {
+    background-color: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #334155;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn-action:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
