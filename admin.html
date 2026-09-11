@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo-brand">
+                <div class="logo-icon">MJ</div>
+                <div class="logo-text">
+                    MERN<span>Jobs</span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Offres disponibles</a>
+                <a href="suivies.html">Offres suivies</a>
+                <a href="admin.html" class="active">Déposer une offre</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="admin-header">
+            <div>
+                <div class="page-badge">🛡️ ESPACE COORDINATEUR & ENSEIGNANTS</div>
+                <h1>Administration du Portail</h1>
+                <p class="subtitle">Gestion centralisée et validation des offres de stage et d'alternance qualifiées
+                    pour la promotion MERN.</p>
+            </div>
+            <a href="deposer.html" class="btn-primary btn-create">
+                <span>+</span> Créer une nouvelle offre
+            </a>
+        </div>
+
+        <div class="admin-card">
+
+            <div class="table-responsive">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ENTREPRISE</th>
+                            <th>POSTE & MISSION</th>
+                            <th>TYPE</th>
+                            <th>LOCALISATION</th>
+                            <th>STACK MERN</th>
+                            <th>PUBLICATION</th>
+                            <th class="text-right">ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="company-name">Sopra Steria</div>
+                                <div class="company-sub">ESN / Scale</div>
+                            </td>
+                            <td>
+                                <div class="job-role">Ingénieur Full Stack React & Node.js</div>
+                                <div class="job-sub">Conception d'APIs micro-services &...</div>
+                            </td>
+                            <td><span class="badge-type orange">Alternance</span></td>
+                            <td><span class="loc-text">📍 Paris (Hybride)</span></td>
+                            <td>
+                                <div class="tech-stack-mini">
+                                    <span>React</span><span>Node.js</span><span>Express</span>
+                                </div>
+                            </td>
+                            <td><span class="date-text">12 Mai 2026</span></td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="btn-icon-action" title="Voir">👁</button>
+                                    <button class="btn-icon-action" title="Éditer">✏️</button>
+                                    <button class="btn-icon-action delete" title="Supprimer">🗑️</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="company-name">Doctolib</div>
+                                <div class="company-sub">Santé & Tech</div>
+                            </td>
+                            <td>
+                                <div class="job-role">Développeur Frontend React / MERN</div>
+                                <div class="job-sub">Refonte des interfaces praticiens et...</div>
+                            </td>
+                            <td><span class="badge-type">Stage</span></td>
+                            <td><span class="loc-text">📍 Nantes (Hybride)</span></td>
+                            <td>
+                                <div class="tech-stack-mini">
+                                    <span>React</span><span>TypeScript</span><span>Node</span>
+                                </div>
+                            </td>
+                            <td><span class="date-text">10 Mai 2026</span></td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="btn-icon-action" title="Voir">👁</button>
+                                    <button class="btn-icon-action" title="Éditer">✏️</button>
+                                    <button class="btn-icon-action delete" title="Supprimer">🗑️</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="company-name">Capgemini</div>
+                                <div class="company-sub">Conseil & Intégration</div>
+                            </td>
+                            <td>
+                                <div class="job-role">Stage Fin d'Études MERN Stack</div>
+                                <div class="job-sub">Projet modernisation cloud MongoDB</div>
+                            </td>
+                            <td><span class="badge-type">Stage</span></td>
+                            <td><span class="loc-text">📍 Lyon (Sur site)</span></td>
+                            <td>
+                                <div class="tech-stack-mini">
+                                    <span>MongoDB</span><span>Express</span><span>Node.js</span>
+                                </div>
+                            </td>
+                            <td><span class="date-text">08 Mai 2026</span></td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="btn-icon-action" title="Voir">👁</button>
+                                    <button class="btn-icon-action" title="Éditer">✏️</button>
+                                    <button class="btn-icon-action delete" title="Supprimer">🗑️</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="company-name">Lydia Solutions</div>
+                                <div class="company-sub">Fintech</div>
+                            </td>
+                            <td>
+                                <div class="job-role">Développeur Backend Node / Mongo</div>
+                                <div class="job-sub">Scaling des transactions et...</div>
+                            </td>
+                            <td><span class="badge-type orange">Alternance</span></td>
+                            <td><span class="loc-text">📍 Bordeaux (Full Remote)</span></td>
+                            <td>
+                                <div class="tech-stack-mini">
+                                    <span>Node.js</span><span>MongoDB</span><span>Jest</span>
+                                </div>
+                            </td>
+                            <td><span class="date-text">05 Mai 2026</span></td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="btn-icon-action" title="Voir">👁</button>
+                                    <button class="btn-icon-action" title="Éditer">✏️</button>
+                                    <button class="btn-icon-action delete" title="Supprimer">🗑️</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                © 2026 MERNJobs — Portail de stages et alternances
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Navigation mobile -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="mobile-nav-item">
+            <span class="mobile-nav-icon">⌂</span>
+            Offres
+        </a>
+        <a href="suivies.html" class="mobile-nav-item">
+            <span class="mobile-nav-icon">♡</span>
+            Suivies
+        </a>
+        <a href="admin.html" class="mobile-nav-item active">
+            <span class="mobile-nav-icon">＋</span>
+            admin
+        </a>
+    </nav>
+    <script src="script.js"></script>
+</body>
+
+</html>

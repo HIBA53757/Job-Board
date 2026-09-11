@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Déposer une offre - MERNJobs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container navbar">
+        <div class="logo-brand">
+            <div class="logo-icon">MJ</div>
+            <div class="logo-text">
+                MERN<span>Jobs</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Offres disponibles</a>
+            <a href="offres-suivies.html">Offres suivies</a>
+            <a href="deposer-offre.html" class="active">Déposer une offre</a>
+            <a href="admin.html">Administration</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <div class="form-header">
+        <div class="page-badge">RECRUTEUR</div>
+        <h1>
+            Déposer une <span>offre</span>
+        </h1>
+        <p class="subtitle">
+            Publiez une nouvelle opportunité de stage ou d'alternance.
+        </p>
+    </div>
+
+    <form class="offer-form">
+
+        <section class="form-section">
+
+            <h2>Informations générales</h2>
+
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="company">
+                        Nom de l'entreprise
+                    </label>
+                    <input
+                        type="text"
+                        id="company"
+                        name="company"
+                        placeholder="Ex : DataPulse Tech"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="title">
+                        Intitulé du poste
+                    </label>
+
+                    <input
+                        type="text"
+                        id="title"
+                        name="title"
+                        placeholder="Ex : Développeur Full Stack"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="city">
+                        Ville
+                    </label>
+
+                    <input
+                        type="text"
+                        id="city"
+                        name="city"
+                        placeholder="Ex : Casablanca"
+                        required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="contract">
+                        Type de contrat
+                    </label>
+
+                    <select id="contract" name="contract" required>
+                        <option value="">Sélectionner</option>
+                        <option value="stage">Stage</option>
+                        <option value="alternance">Alternance</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Technologies</h2>
+            <div class="form-group">
+                <label for="technologies">
+                    Technologies utilisées
+                </label>
+                <input
+                    type="text"
+                    id="technologies"
+                    name="technologies"
+                    placeholder="Ex : React, Node.js, MongoDB, Express">
+                <small>
+                    Séparez les technologies par des virgules.
+                </small>
+            </div>
+        </section>
+        <section class="form-section">
+            <h2>Description de l'offre</h2>
+            <div class="form-group">
+                <label for="description">
+                    Description courte
+                </label>
+
+                <textarea
+                    id="description"
+                    name="description"
+                    rows="4"
+                    placeholder="Présentez brièvement l'opportunité..."
+                    required></textarea>
+
+            </div>
+            <div class="form-group">
+                <label for="mission">
+                    Mission
+                </label>
+                <textarea
+                    id="mission"
+                    name="mission"
+                    rows="7"
+                    placeholder="Décrivez les missions du stagiaire ou de l'alternant..."
+                    required></textarea>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Profil recherché</h2>
+            <div class="form-group">
+                <label for="profile">
+                    Profil et compétences
+                </label>
+                <textarea
+                    id="profile"
+                    name="profile"
+                    rows="6"
+                    placeholder="Ex : Étudiant en développement web, connaissances en JavaScript..."
+                    required></textarea>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Informations de candidature</h2>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="email">
+                        Email de candidature
+                    </label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="recrutement@entreprise.com"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="deadline">
+                        Date limite de candidature
+                    </label>
+                    <input
+                        type="date"
+                        id="deadline"
+                        name="deadline">
+                </div>
+            </div>
+        </section>
+
+        <div class="form-actions">
+            <a href="index.html" class="btn-secondary">
+                Annuler
+            </a>
+            <button type="submit" class="btn-primary">
+                Publier l'offre
+            </button>
+        </div>
+    </form>
+
+</main>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-bottom">
+            © 2026 MERNJobs — Portail de stages et alternances
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
