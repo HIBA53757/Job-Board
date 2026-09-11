@@ -481,7 +481,6 @@ h1 span {
     font-size: 13px;
     color: #94a3b8;
 }
-/* page  suivies */
 .page-badge {
     color: #047857;
     font-size: 11px;
@@ -489,20 +488,17 @@ h1 span {
     letter-spacing: 0.5px;
     margin-bottom: 8px;
 }
-
 .subtitle {
     color: #64748b;
     font-size: 15px;
     margin-top: -18px;
     margin-bottom: 30px;
 }
-
 .saved-jobs-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-
 .saved-card {
     background: #ffffff;
     border-radius: 12px;
@@ -514,56 +510,46 @@ h1 span {
     align-items: center;
     transition: all 0.25s ease;
 }
-
 .saved-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
     border-color: #cbd5e1;
 }
-
 .saved-card-left {
     display: flex;
     gap: 20px;
     align-items: flex-start;
 }
-
 .saved-card-content {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-
 .title-row {
     display: flex;
     align-items: center;
     gap: 12px;
 }
-
 .job-title-list {
     font-size: 18px;
     font-weight: 800;
     color: #0f172a;
 }
-
 .meta-row {
     font-size: 13px;
     color: #64748b;
 }
-
 .meta-row strong {
     color: #1e293b;
 }
-
 .saved-card-content .tech-stack {
     margin-bottom: 0;
     margin-top: 4px;
 }
-
 .saved-card-actions {
     display: flex;
     gap: 10px;
 }
-
 .btn-action {
     background-color: #f1f5f9;
     border: 1px solid #e2e8f0;
@@ -578,21 +564,19 @@ h1 span {
     gap: 6px;
     transition: all 0.2s ease;
 }
-
 .btn-action:hover {
     background-color: #e2e8f0;
     color: #0f172a;
     transform: translateY(-1px);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-/* Page Administration */
+
 .admin-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 24px;
 }
-
 .btn-create {
     display: flex;
     align-items: center;
@@ -600,7 +584,6 @@ h1 span {
     padding: 12px 20px;
     font-size: 14px;
 }
-
 .admin-card {
     background: #ffffff;
     border-radius: 16px;
@@ -609,7 +592,6 @@ h1 span {
     padding: 24px;
 }
 
-/* Filtres Administration */
 .admin-filter-bar {
     display: flex;
     justify-content: space-between;
@@ -617,13 +599,11 @@ h1 span {
     gap: 16px;
     margin-bottom: 24px;
 }
-
 .search-input-wrapper {
     position: relative;
     flex: 1;
     max-width: 480px;
 }
-
 .search-icon {
     position: absolute;
     left: 14px;
@@ -632,7 +612,6 @@ h1 span {
     font-size: 14px;
     color: #94a3b8;
 }
-
 .admin-search-input {
     width: 100%;
     padding: 10px 14px 10px 38px;
@@ -643,13 +622,11 @@ h1 span {
     outline: none;
     transition: all 0.2s ease;
 }
-
 .admin-search-input:focus {
     background-color: #ffffff;
     border-color: #0d9488;
     box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
 }
-
 .filter-tabs {
     display: flex;
     background-color: #f1f5f9;
@@ -657,7 +634,6 @@ h1 span {
     border-radius: 8px;
     gap: 4px;
 }
-
 .tab-btn {
     border: none;
     background: transparent;
@@ -669,24 +645,19 @@ h1 span {
     cursor: pointer;
     transition: all 0.2s ease;
 }
-
 .tab-btn.active {
     background-color: #0d9488;
     color: #ffffff;
     box-shadow: 0 2px 6px rgba(13, 148, 136, 0.25);
 }
-
-/* Data Table */
 .table-responsive {
     overflow-x: auto;
 }
-
 .admin-table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
 }
-
 .admin-table th {
     font-size: 11px;
     font-weight: 800;
@@ -695,44 +666,36 @@ h1 span {
     padding: 12px 16px;
     border-bottom: 2px solid #f1f5f9;
 }
-
 .admin-table td {
     padding: 16px;
     border-bottom: 1px solid #f1f5f9;
     vertical-align: middle;
 }
-
 .admin-table tbody tr {
     transition: background-color 0.15s ease;
 }
-
 .admin-table tbody tr:hover {
     background-color: #f8fafc;
 }
-
 .company-name, .job-role {
     font-weight: 700;
     font-size: 14px;
     color: #0f172a;
 }
-
 .company-sub, .job-sub {
     font-size: 12px;
     color: #64748b;
     margin-top: 2px;
 }
-
 .loc-text, .date-text {
     font-size: 13px;
     color: #475569;
 }
-
 .tech-stack-mini {
     display: flex;
     gap: 4px;
     flex-wrap: wrap;
 }
-
 .tech-stack-mini span {
     background-color: #f1f5f9;
     border: 1px solid #e2e8f0;
@@ -742,13 +705,11 @@ h1 span {
     padding: 3px 6px;
     border-radius: 4px;
 }
-
 .action-buttons {
     display: flex;
     gap: 6px;
     justify-content: flex-end;
 }
-
 .btn-icon-action {
     background: transparent;
     border: 1px solid #e2e8f0;
@@ -762,13 +723,11 @@ h1 span {
     font-size: 13px;
     transition: all 0.2s ease;
 }
-
 .btn-icon-action:hover {
     background-color: #f1f5f9;
     border-color: #cbd5e1;
 
 }
-
 .btn-icon-action.delete:hover {
     background-color: #fef2f2;
     border-color: #fca5a5;
@@ -778,7 +737,7 @@ h1 span {
 .text-right {
     text-align: right;
 }
-/* Page Détail Offre */
+
 .breadcrumb-row {
     display: flex;
     justify-content: space-between;
@@ -786,37 +745,29 @@ h1 span {
     margin-bottom: 20px;
     font-size: 13px;
 }
-
 .breadcrumb {
     color: #64748b;
 }
-
 .breadcrumb a {
     color: #64748b;
     text-decoration: none;
 }
-
 .breadcrumb a:hover {
     color: #0d9488;
 }
-
 .breadcrumb span {
     color: #0f172a;
     font-weight: 600;
 }
-
 .back-link {
     color: #475569;
     text-decoration: none;
     font-weight: 700;
     transition: color 0.2s ease;
 }
-
 .back-link:hover {
     color: #0d9488;
 }
-
-/* Header de la Fiche */
 .job-detail-header {
     display: flex;
     justify-content: space-between;
@@ -825,13 +776,11 @@ h1 span {
     border-bottom: 1px solid #e2e8f0;
     margin-bottom: 20px;
 }
-
 .company-brand-row {
     display: flex;
     gap: 16px;
     align-items: center;
 }
-
 .company-logo-large {
     width: 54px;
     height: 54px;
@@ -843,18 +792,15 @@ h1 span {
     justify-content: center;
     font-size: 24px;
 }
-
 .company-title-wrap {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
 .company-title-wrap h2 {
     font-size: 20px;
     color: #0f172a;
 }
-
 .badge-partner {
     background-color: #d1fae5;
     color: #047857;
@@ -863,34 +809,29 @@ h1 span {
     padding: 3px 8px;
     border-radius: 6px;
 }
-
 .company-meta {
     font-size: 13px;
     color: #64748b;
     margin-top: 4px;
 }
-
 .company-meta a {
     color: #0d9488;
     text-decoration: none;
     font-weight: 600;
 }
 
-/* Badges Informations Clés */
 .job-detail-title {
     font-size: 26px;
     font-weight: 900;
     margin-bottom: 16px;
     color: #0f172a;
 }
-
 .job-key-info {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 30px;
 }
-
 .key-badge {
     background-color: #f1f5f9;
     border: 1px solid #cbd5e1;
@@ -900,38 +841,32 @@ h1 span {
     padding: 6px 12px;
     border-radius: 8px;
 }
-
 .key-badge.highlight {
     background-color: #d1fae5;
     color: #065f46;
     border-color: #a7f3d0;
 }
-
 .key-badge.alert {
     background-color: #ffedd5;
     color: #9a3412;
     border-color: #fed7aa;
 }
-
 .key-badge.perk {
     background-color: #e0f2fe;
     color: #0369a1;
     border-color: #bae6fd;
 }
 
-/* Layout Grille Principal */
 .job-detail-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 30px;
 }
-
 .detail-main-content {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-
 .detail-section {
     background: #ffffff;
     padding: 28px;
@@ -939,7 +874,6 @@ h1 span {
     border: 1px solid #e2e8f0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
 }
-
 .detail-section h3 {
     font-size: 18px;
     color: #0f172a;
@@ -948,7 +882,6 @@ h1 span {
     align-items: center;
     gap: 8px;
 }
-
 .intro-text {
     font-size: 14px;
     color: #475569;
@@ -962,7 +895,6 @@ h1 span {
     flex-direction: column;
     gap: 12px;
 }
-
 .missions-list li {
     font-size: 14px;
     color: #334155;
@@ -970,7 +902,6 @@ h1 span {
     position: relative;
     padding-left: 24px;
 }
-
 .missions-list li::before {
     content: "✓";
     position: absolute;
@@ -978,8 +909,6 @@ h1 span {
     color: #0d9488;
     font-weight: bold;
 }
-
-/* Box Exigences et Atouts */
 .requirements-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -990,31 +919,26 @@ h1 span {
     border: 1px solid #e2e8f0;
     margin-top: 16px;
 }
-
 .req-col h4 {
     font-size: 13px;
     color: #0f172a;
     margin-bottom: 10px;
 }
-
 .req-col ul {
     list-style-type: disc;
     padding-left: 18px;
     font-size: 13px;
     color: #475569;
 }
-
 .req-col li {
     margin-bottom: 6px;
 }
 
-/* Sidebar Droite */
 .detail-sidebar {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .sidebar-card {
     background: #ffffff;
     padding: 24px;
@@ -1022,7 +946,6 @@ h1 span {
     border: 1px solid #e2e8f0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
 }
-
 .sidebar-card h3 {
     font-size: 16px;
     color: #0f172a;
@@ -1031,13 +954,11 @@ h1 span {
     align-items: center;
     gap: 8px;
 }
-
 .tech-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
-
 .tech-tag {
     background-color: #f1f5f9;
     border: 1px solid #cbd5e1;
@@ -1047,14 +968,12 @@ h1 span {
     padding: 5px 10px;
     border-radius: 6px;
 }
-
 .tech-tag.primary {
     background-color: #6ee7b7;
     border-color: #34d399;
     color: #064e3b;
 }
 
-/* Cartes Contact Sidebar */
 .contact-info-block {
     margin-bottom: 14px;
     background-color: #f8fafc;
@@ -1062,13 +981,11 @@ h1 span {
     border-radius: 8px;
     border: 1px solid #f1f5f9;
 }
-
 .contact-info-block.flex-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .info-label {
     display: block;
     font-size: 11px;
@@ -1076,7 +993,6 @@ h1 span {
     font-weight: 700;
     margin-bottom: 4px;
 }
-
 .contact-email {
     color: #0d9488;
     text-decoration: none;
@@ -1084,19 +1000,147 @@ h1 span {
     font-size: 13px;
     word-break: break-all;
 }
-
 .contact-text {
     font-size: 13px;
     color: #1e293b;
 }
-
 .date-limit {
     font-size: 12px;
     font-weight: 800;
     color: #0f172a;
 }
-
 .bottom-back-wrapper {
     margin-top: 40px;
     text-align: center;
+}
+
+.mobile-bottom-nav {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .nav-links, 
+    .nav-actions {
+        display: none;
+    }
+    .header {
+        margin-bottom: 20px;
+        padding: 12px 0;
+    }
+    .mobile-bottom-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 64px;
+        background-color: #ffffff;
+        border-top: 1px solid #e2e8f0;
+        box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        padding: 0 10px;
+    }
+    .mobile-nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #64748b;
+        font-size: 11px;
+        font-weight: 700;
+        gap: 3px;
+        flex: 1;
+        height: 100%;
+        transition: color 0.2s ease;
+    }
+    .mobile-nav-icon {
+        font-size: 20px;
+    }
+    .mobile-nav-item.active {
+        color: #0d9488;
+    }
+
+    body {
+        padding-bottom: 75px;
+    }
+    .grid {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .card {
+        width: 100%;
+        min-width: 100%;
+    }
+    .job-detail-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .requirements-box {
+        grid-template-columns: 1fr;
+    }
+    .saved-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .saved-card-actions {
+        width: 100%;
+        justify-content: flex-end;
+        border-top: 1px solid #f1f5f9;
+        padding-top: 12px;
+    }
+    .admin-header {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .btn-create {
+        width: 100%;
+        justify-content: center;
+    }
+    .admin-filter-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .search-input-wrapper {
+        max-width: 100%;
+    }
+    .filter-tabs {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tab-btn {
+        flex: 1;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .job-detail-title {
+        font-size: 22px;
+    }
+    .inputs-row {
+        flex-direction: column;
+    }
+    .icon-btn {
+        width: 100%;
+        height: 44px;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .job-detail-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .btn-bookmark {
+        width: 100%;
+    }
 }
